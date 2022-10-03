@@ -1,0 +1,10 @@
+logs/
+journeymap/
+mods/
+saves/
+screenshots/
+server-resource-packs/
+shaderpacks/
+texturespacks/
+patchouli_data.json
+kubejs/exported/
