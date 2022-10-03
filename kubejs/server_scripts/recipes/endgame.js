@@ -15,7 +15,6 @@ onEvent("recipes", (event) => {
 
   event.remove({ output: "extendedcrafting:ultimate_singularity" })
   event.recipes.extendedcrafting.shapeless_table("extendedcrafting:ultimate_singularity", [
-    Item.of("extendedcrafting:singularity", '{Id:"extendedcrafting:aluminum"}'),
     Item.of("extendedcrafting:singularity", '{Id:"extendedcrafting:bronze"}'),
     Item.of("extendedcrafting:singularity", '{Id:"extendedcrafting:certus_quartz"}'),
     Item.of("extendedcrafting:singularity", '{Id:"extendedcrafting:charged_certus_quartz"}'),
