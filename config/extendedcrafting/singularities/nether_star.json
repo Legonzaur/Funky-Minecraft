@@ -1,0 +1,11 @@
+{
+  "name": "Nether_star",
+  "colors": [
+    "E5D9FF",
+    "6E70AF"
+  ],
+  "ingredient": {
+    "item": "minecraft:nether_star"
+  },
+  "materialCount":1000
+}

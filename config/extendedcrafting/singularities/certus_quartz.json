@@ -1,0 +1,10 @@
+{
+  "name": "Certus_quartz",
+  "colors": [
+    "B8D8FC",
+    "6689A9"
+  ],
+  "ingredient": {
+    "item": "ae2:certus_quartz_crystal"
+  }
+}

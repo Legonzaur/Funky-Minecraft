@@ -1,0 +1,11 @@
+{
+  "name": "Chest",
+  "colors": [
+    "342E26",
+    "483111"
+  ],
+  "ingredient": {
+    "item": "minecraft:chest"
+  },
+  "inUltimateSingularity": false
+}
