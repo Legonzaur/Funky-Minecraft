@@ -7,5 +7,9 @@ server-resource-packs/
 shaderpacks/
 texturespacks/
 resourcepacks/
-patchouli_data.json
 kubejs/exported/
+
+patchouli_data.json
+usercache.json
+usernamecache.json
+rhino.local.properties
