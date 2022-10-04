@@ -4,15 +4,25 @@ onEvent( "recipes", ( event ) => {
 
   event.recipes.thermal.bottler(
     Item.of( "extendedcrafting:singularity", '{Id:"extendedcrafting:water"}' ),
-    [ Fluid.of( "minecraft:water", 10000 ), "ae2:singularity" ]
+    [ Fluid.of( "minecraft:water", 32000 ), "ae2:singularity" ]
   );
 
   event.recipes.thermal.bottler(
-    Item.of( "extendedcrafting:singularity", '{Id:"extendedcrafting:d-t_fuel"}' ),
-    [ Fluid.of( "mekanismgenerators:fusion_fuel", 10000 ), "ae2:singularity" ]
+    Item.of( "extendedcrafting:singularity", '{Id:"extendedcrafting:dt"}' ),
+    [ Fluid.of( "mekanismgenerators:fusion_fuel", 32000 ), "ae2:singularity" ]
   );
 
 
+  event.remove({ id: "avaritia:ultimate_stew" });
+  event.recipes.extendedcrafting.shapeless_table("4x avaritia:ultimate_stew", [
+    "minecraft:beetroot_soup","thermal:spring_salad", "minecraft:mushroom_stew","minecraft:rabbit_stew", "blue_skies:scalefruit", "blue_skies:pine_fruit", "thermal:hearty_stew", "thermal:xp_stew", "#forge:crops/wheat","minecraft:apple","minecraft:melon","minecraft:pumpkin","minecraft:cactus","avaritia:neutron_pile"]
+  );
+
+  event.remove({id:"avaritia:cosmic_meatballs"})
+  event.recipes.extendedcrafting.shapeless_table("4x avaritia:cosmic_meatballs", [
+    "minecraft:cod","minecraft:porkchop", "minecraft:rabbit","minecraft:salmon", "minecraft:chicken", "minecraft:beef", "minecraft:mutton","blue_skies:grittle_flatfish", "blue_skies:municipal_monkfish","blue_skies:charscale_moki","blue_skies:horizofin_tunid", "twilightforest:raw_meef", "twilightforest:raw_venison", "avaritia:neutron_pile"]
+  );
+  
   event.remove( { output: "extendedcrafting:ultimate_singularity" } )
   event.recipes.extendedcrafting.shapeless_table( "extendedcrafting:ultimate_singularity", [
     Item.of( "extendedcrafting:singularity", '{Id:"extendedcrafting:bronze"}' ),
