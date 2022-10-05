@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"iii",
+		"iii",
+		"iii"
+	],
+	"key": {
+		"i": {
+			"tag": "forge:raw_materials/thorium"
+		}
+	},
+	"result": {
+		"item": "electrodynamics:raworeblockthorium",
+		"count": 1
+	}
+}

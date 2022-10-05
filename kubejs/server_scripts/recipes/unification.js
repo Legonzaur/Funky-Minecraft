@@ -83,6 +83,10 @@ onEvent("recipes", (event) => {
     event.remove({ id: 'thermal:storage/bronze_ingot_from_block' })
     event.remove({ id: 'thermal:storage/bronze_ingot_from_nuggets' })
     event.remove({ id: 'tconstruct:common/materials/copper_nugget_from_ingot' })
+    event.remove({ id: 'electrodynamics:raworeblocktin' })
+    event.remove({ id: 'electrodynamics:raworeblocklead' })
+    event.remove({ id: 'electrodynamics:raworeblocksilver' })
+    event.remove({ id: 'electrodynamics:raworeblockuranium' })
 
     event.shapeless('thermal:silver_block', ['9x #forge:ingots/silver'])
     event.shapeless('thermal:raw_silver_block', ['9x #forge:raw_materials/silver'])
@@ -111,6 +115,7 @@ onEvent("recipes", (event) => {
     event.replaceOutput("#forge:dusts/emerald", "thermal:emerald_dust")
     event.replaceOutput("#forge:dusts/diamond", "thermal:diamond_dust")
     event.replaceOutput("#forge:dusts/sulfur", "thermal:sulfur_dust")
+    event.replaceOutput("#forge:dusts/saltpeter", "thermal:sulfur_dust") 
 })
 
 
@@ -127,4 +132,5 @@ onEvent("lootjs", (event) => {
 onEvent('item.tags', event => {
     event.get('forge:dyes/yellow').remove('mekanism:dust_sulfur')
     event.get('forge:dyes/yellow').add('thermal:sulfur_dust')
+    event.get('forge:dusts/saltpeter').add('thermal:niter_dust')
 })
