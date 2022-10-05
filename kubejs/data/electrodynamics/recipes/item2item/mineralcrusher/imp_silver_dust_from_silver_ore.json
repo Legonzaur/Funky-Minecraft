@@ -8,7 +8,7 @@
 		}
 	},
 	"output": {
-		"item": "mekanism:dirty_dust_silver",
+		"item": "electrodynamics:impuredustsilver",
 		"count": 3
 	},
     "experience": 0.2,

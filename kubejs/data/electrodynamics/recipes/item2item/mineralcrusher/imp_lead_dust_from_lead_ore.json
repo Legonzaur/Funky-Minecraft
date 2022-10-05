@@ -15,7 +15,7 @@
 	"itembi" : {
 		"count" : 1, 
 		"0" : {
-			"item" : "mekanism:dirty_dust_silver", 
+			"item" : "electrodynamics:impuredustsilver", 
 			"count" : 1,
 			"chance" : 0.4
 		}
