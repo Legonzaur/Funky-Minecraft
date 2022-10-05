@@ -8,7 +8,8 @@ shaderpacks/
 texturespacks/
 resourcepacks/
 kubejs/exported/
-
+config/jei/world/
+probe/
 patchouli_data.json
 usercache.json
 usernamecache.json
