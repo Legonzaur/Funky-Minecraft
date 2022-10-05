@@ -1,0 +1,25 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "tag": "forge:coins/gold",
+      "count": 3
+    },
+    {
+      "tag": "forge:gunpowder",
+      "count": 1
+    },
+    {
+      "tag": "forge:plates/steel",
+      "count": 1
+    },
+    {
+      "tag": "forge:plastic",
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "cgm:shell",
+    "count": 48
+  }
+}

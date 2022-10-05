@@ -1,0 +1,13 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "item": "thermal:lighting_grenade",
+      "count": 2
+    }
+  ],
+  "result": {
+    "item": "cgm:stun_grenade",
+    "count": 2
+  }
+}

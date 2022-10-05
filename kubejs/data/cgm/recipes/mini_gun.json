@@ -1,0 +1,24 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "item": "nuclearscience:moltensaltpipevanadiumsteelceramic",
+      "count": 4
+    },
+    {
+      "item": "electrodynamics:platevanadiumsteel",
+      "count": 40
+    },
+    {
+      "tag": "forge:plates/aluminum",
+      "count": 20
+    },
+    {
+      "tag": "forge:plastic",
+      "count": 10
+    }
+  ],
+  "result": {
+    "item": "cgm:mini_gun"
+  }
+}

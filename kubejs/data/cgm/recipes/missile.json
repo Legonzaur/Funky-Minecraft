@@ -1,0 +1,20 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "item": "electrodynamics:ingotchromium",
+      "count": 4
+    },
+    {
+      "tag": "forge:gunpowder",
+      "count": 4
+    },
+    {
+      "tag": "forge:plates/steel",
+      "count": 4
+    }
+  ],
+  "result": {
+    "item": "cgm:missile"
+  }
+}

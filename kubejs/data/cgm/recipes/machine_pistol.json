@@ -1,0 +1,20 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "item": "electrodynamics:pipesteel",
+      "count": 1
+    },
+    {
+      "tag": "forge:plates/steel",
+      "count": 20
+    },
+    {
+      "tag": "forge:plastic",
+      "count": 4
+    }
+  ],
+  "result": {
+    "item": "cgm:machine_pistol"
+  }
+}

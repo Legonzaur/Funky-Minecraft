@@ -1,0 +1,21 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "tag": "forge:coins/lead",
+      "count": 3
+    },
+    {
+      "tag": "forge:gunpowder",
+      "count": 1
+    },
+    {
+      "tag": "forge:plates/copper",
+      "count": 4
+    }
+  ],
+  "result": {
+    "item": "cgm:basic_bullet",
+    "count": 64
+  }
+}

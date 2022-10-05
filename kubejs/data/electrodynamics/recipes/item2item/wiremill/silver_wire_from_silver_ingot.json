@@ -1,0 +1,23 @@
+{
+    "type":"electrodynamics:wire_mill_recipe",
+	"iteminputs" : {
+		"count" : 1,
+		"0":{
+	        "tag":"forge:ingots/silver",
+	        "count":1
+	    }
+	},
+    "output":{
+        "item":"electrodynamics:wiresilver",
+        "count":1
+    },
+    "experience": 0.1,
+	"itembi" : {
+		"count" : 1, 
+		"0" : {
+			"item" : "thermal:silver_nugget", 
+			"count" : 1,
+			"chance" : 1
+		}
+	}
+}
